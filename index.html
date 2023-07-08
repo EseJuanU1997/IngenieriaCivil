@@ -9,7 +9,19 @@
     <!-- Link css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+<style>
+    .pdf-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh; /* Ajusta el valor según el tamaño deseado */
+    }
 
+    .pdf-container embed {
+        width: 90%; /* Ajusta el valor según el ancho deseado */
+        height: 100%;
+    }
+</style>
     <!-- ends header -->
 
 <body>
@@ -52,7 +64,7 @@
                 <img src="./img/nuevo/2b.jpg" alt="Cava subterránea Monaghan">
             </div>
                     <div>
-                        <h1 class="text-header">Ingenieria <br> Civil</h1>
+                        <h1 class="text-header">Ingeniería <br> Civil</h1>
                     </div>
                     <div class="background-layer"> </div>
          </section>
@@ -64,7 +76,39 @@
         <section class="container-100">
             <h2 class="text-h2">La ingeniería civil impulsa<br> el desarrollo sostenible</h2>
             <p class="text-p1">La ingeniería civil desempeña un papel fundamental en el desarrollo sostenible de las sociedades. Los ingenieros civiles trabajan para encontrar soluciones que minimicen el impacto ambiental, promuevan la eficiencia energética y utilicen materiales y recursos de manera responsable. Además, se centran en el diseño de infraestructuras resilientes que puedan hacer frente a los desafíos del cambio climático.</p>
-        </section>
+            <br>
+            <br>
+            <a href="https://www.sedema.cdmx.gob.mx/programas/programa/infraestructura-verde"">
+                <h1 class="text-h1">Consulta información aqui</h1>
+            </a>
+              
+            <br>
+            <br>
+            <style>
+                .video-container {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 400px; /* Define la altura deseada */
+                }
+                
+                .video-container iframe {
+                  width: 100%; /* Opcional: para que el video ocupe todo el ancho disponible */
+                  height: 100%; /* Opcional: para que el video ocupe toda la altura disponible */
+                }
+            </style>
+              
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_Wwo1cvMXlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>              
+            <br>
+            <br>
+            <h1 class="text-h1">COMISIÓN INTERSECRETARIAL DE CAMBIO CLIMÁTICO
+            </h1> 
+            <div class="pdf-container">
+                <embed src="img/nuevo/pdf/4.pdf" type="application/pdf" width="80%" height="100%" />
+            </div> 
+            </section>
                 <section class="container-servicios">
                     <div class="containerimg"> <img src="./img/nuevo/3.jpg" alt="Meson Cava Monaghan"> </div>
                         <div class="container-content-servicios">
@@ -74,14 +118,30 @@
                                 <a class="text-button" href="./pages/servicios.html">+ Info</a>
                                 </div>
                         </div>
-                </section>
-                    <section class="container-100">
+            </section>
+            <section class="container-100">
                         <h2 class="text-h2">Los ingenieros civiles construyen infraestructuras vitales</h2>
                         <p class="text-p1">Los ingenieros civiles son responsables de la construcción de infraestructuras esenciales para el funcionamiento de las sociedades modernas. Esto incluye carreteras, puentes, ferrocarriles, aeropuertos, presas, sistemas de abastecimiento de agua y alcantarillado, entre otros. Su trabajo contribuye a mejorar la calidad de vida de las personas y fomentar el desarrollo económico.
-                        </p>
-                        </section>      
-    </main>
+                        </p>  
+            </section>
+            
+            <style>
+                .video-iframe {
+                  width: 33%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+              </style>
+              
+              <div id="video-containe">
+                <iframe class="video-iframe" src="https://www.youtube.com/embed/IT1ZvicuB6g" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video-iframe" src="https://www.youtube.com/embed/BTUV6mq4VLQ" frameborder="0" allowfullscreen></iframe>
+                <iframe class="video-iframe" src="https://www.youtube.com/embed/sI5hv97xsnE" frameborder="0" allowfullscreen></iframe>
+              </div>
 
+    </main>
+    <br>
+    <br>
     <!-- ends main -->
 
     <footer>
